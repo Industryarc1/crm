@@ -1,0 +1,443 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.form-control[readonly] {
+    background-color: #ffffff!important;
+}
+.contact_profile-img-align{
+    border-radius: 50%;
+    background-color: #C1ECF2;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+.profile-img-align{
+    border-radius: 50%;
+    background-color: #B896AE;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+.icons_align{
+    width: 20px;
+    margin-right: 10px;
+}
+.contact-label{
+    font-size: 12px;
+}
+.rightsidetab{
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+    padding: 10px 30px;
+}
+/*.note-editing-area{
+    height: 100px!important;
+}*/
+.note-editor.note-frame {
+    border: 1px solid #eeeeee!important;
+}
+.note-editor{
+    padding: 10px!important;
+}
+.note-editor .note-editing-area {
+  margin-top: 10px!important;
+}
+.btn-default-btn{
+    color: gray;
+    background: #ffffff;
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin-right: -5px;
+}
+.btn-default {
+    background-color: aliceblue!important;
+    border: none!important;
+}
+.note-editor.note-frame .note-editing-area .note-editable {
+    height: 150px!important;
+}
+.note-popover.popover {
+    max-width: none;
+    display: none!important;
+}
+.note-btn-group{
+    padding-right: 2px;
+}
+.btn-group>.btn {
+    padding-right: 8px!important;
+}
+.fade:not(.show) {
+    opacity: 1;
+}
+.comments-card{
+    border: 1px solid #ccc;
+    height: auto;
+    background-color: #f7f7f7;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.comments-section{
+    background-color: gainsboro;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+li .active{
+    background: gainsboro;
+    color: #2196F3;
+}
+.input-group-addon {
+    border-radius: unset!important;
+}
+.form-email{
+    margin-bottom: 5px;
+}
+.note-editable{
+    padding-left:20px!important;
+}
+.note-save{
+    float: right;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.date-align{
+    font-size: 12px!important;
+}
+.datepicker-days{
+    padding: 0 10px;
+    font-size: 15px;
+}
+.created-date{
+    float: right;
+    font-size: 11px;
+}
+.card{
+    margin-bottom: 20px!important;
+}
+.card-body{
+    padding: 20px 50px 10px 50px!important;
+}
+.historymenu{
+    background: gray;
+    color: #ffffff;
+    font-size: 13px;
+    margin: 5px 10px;
+    border-radius: 20px;
+    padding: 2px 8px 2px 8px;
+}
+.filters-card{
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #eee;
+}
+.add-contact{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: #2196F3;
+    color: #ffffff;
+}
+.assign-btn{
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100%;
+}
+.btn-status{
+    background-color: #EEEEEE;
+    border: none;
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
+.select-box{
+    padding: 7px;
+    width: 100%;
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+    border: 1px solid gainsboro;
+}
+.filer-check{
+    margin-right: 5px;
+}
+.select-rows{
+    border: 1px solid darkgray;
+    font-size: 14px;
+    color: gray;
+    padding: 5px;
+    margin-right: 5px;
+}
+.btn-default{
+    background-color: #ffffff;
+    font-size: 14px;
+    color: gray;
+    border: 1px solid darkgray;
+    padding: 6px;
+    margin-right: -5px;
+}
+.download-copy{
+    font-size: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 7px 5px 7px 5px;
+    border-radius: 5px;
+}
+.wrapper1, .wrapper2 { width: 100%; overflow-x: scroll; overflow-y: hidden; }
+.wrapper1 { height: 20px; }
+.div1 { height: 20px; }
+.hide-buttons{
+    display: none;
+}
+.select-modal-rows{
+    border: 1px solid #ececf6;
+    font-size: 13px;
+    color: gray;
+    padding: 5px;
+}
+.btn-success {
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+.btn-danger {
+    padding: 0 7px 0 7px;
+    border-radius: 5px;
+}
+.option-display{
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.createinvoice-btn{
+    background-color: #2BA9D9;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+    font-size: 12px;
+    float: right;
+}
+.editinvoice-btn{
+    color: #2BA9D9;
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+    font-size: 14px;
+    float: right;
+}
+.invoice-sheet{
+    background-color: #ffffff;
+    padding: 20px 50px 50px 60px;
+}
+.invoice-logo{
+   height: 130px;
+    margin-bottom: 10px;
+}
+.title-invoice{
+     font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.address-invoice{
+    font-size: 13px;
+    font-weight: 100;
+}
+.invoice-title{
+    color: #2F81B7;
+    font-size: 35px;
+    float: right;
+    margin: 0;
+}
+.invoice-id{
+   float: right;
+}
+.invoice-report{
+    font-size: 13px;
+    color: black;
+    margin-bottom:5px;
+}
+.invoice-spacing{
+    font-size: 13px;
+    color: black;
+    margin-bottom:5px;
+    text-align: right;
+}
+.invoice-spacing-payment{
+    font-size: 13px;
+    color: black;
+    margin-bottom:5px;
+}
+.table-head{
+    background-color:#2F81B7 ;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.table_data{
+    font-size: 13px;
+    color: black;
+    padding: 10px 10px 0 10px;
+}
+.bal-amount{
+    background: #F4F9FB;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 15px 8px 100px;
+    margin-top: 10px;
+}
+.payment-title{
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: black;
+}
+.payment-data{
+    font-size: 14px;
+    color: black;
+    font-family: sans-serif;
+}
+.content-payment{
+    font-size: 13px;
+    color: black;
+    padding:5px 0 5px 0;
+    font-family: sans-serif;
+}
+.pay-sign{
+    font-size: 13px;
+    color: black;
+    margin-top: 10px;
+}
+/* ----------------------------------------- calendar css changes-----------------------------------*/
+.fc .fc-button-group>* {
+    font-size: 14px!important;
+}
+.fc-state-default {
+ font-size: 14px!important;
+}
+.fc-toolbar h2 {
+    margin: 0;
+    font-size: 18px!important;
+    color: #198CCF!important;
+}
+.fc-head {
+    background-color: #f6f6f6!important;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: grey;
+}
+.fc-event, .fc-event-dot {
+    background-color: #198CCF!important;
+}
+.fc-view-container {
+ background-color: #ffffff!important;
+}
+.fc-content{
+    color: #ffffff;
+    font-size: 12px;
+    padding: 2px;
+}
+/* ----------------------------------------- calendar css changes-----------------------------------*/
+.btn-demo{
+   font-size: 12px;
+    color: #2F81B7;
+    float: right;
+}
+.btn-demo:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 500px;
+    height:100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+.modal.right .modal-header {
+    border-bottom-color: #EEEEEE;
+    background-color: #FAFAFA;
+    padding-bottom: 25px;
+}
+.modal.right .modal-footer {
+    height: 120px;
+}
+.modal.right .modal-body {
+   overflow-y: auto;
+}
+.modal.right .modal-content{
+    height:100%;
+    border-radius: 0;
+    border: none;
+}
+.modal.right .modal-body {
+    padding-left: 30px;
+}
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: 0;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.table-data4 thead {
+    background: #F9F9F9;
+}
+.table-data4 thead tr th {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 30px;
+}
+.table-data4 tbody td {
+    border-bottom: 1px solid #f5f5f5;
+    background: #fff;
+    font-size: 14px;
+    color: black;
+    padding: 10px 30px;
+}
+.btn-remarks{
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    color: #0082CB;
+}
+/* ----------------------------------------- reports css -----------------------------------*/
+.table-report thead {
+    background: #F9F9F9;
+}
+.table-report thead tr th {
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.table-report tbody td {
+    border-bottom: 1px solid #f5f5f5;
+    background: #fff;
+    font-size: 10px;
+    color: black;
+}

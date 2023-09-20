@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www\.crm.industryarc\.in$ [NC]
+RewriteRule ^(.*)$ https://crm.industryarc.in/$1 [R=301,L]
+
+ErrorDocument 404 https://crm.industryarc.in
